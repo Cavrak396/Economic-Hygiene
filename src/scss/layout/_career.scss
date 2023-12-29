@@ -1,0 +1,183 @@
+.career {
+  background-color: $casual_green;
+  color: $white;
+  padding-top: 50px;
+
+  @include phone {
+    padding-top: 25px;
+  }
+}
+
+.career__join-text {
+  text-align: center;
+  max-width: 593px;
+  margin: 0 auto 50px auto;
+}
+
+.career__join-title {
+  margin-bottom: 12px;
+
+  @include phone {
+    font-size: 30px;
+  }
+}
+
+.career__join-lines {
+  @include phone {
+    font-size: 15px;
+  }
+}
+
+.career__line {
+  display: flex;
+  padding-bottom: 100px;
+
+  @include tablet {
+    flex-direction: column;
+  }
+}
+
+.career__container {
+  max-width: 50%;
+  flex: 1 1 50%;
+
+  @include tablet {
+    max-width: 100%;
+    flex: 1 1 100%;
+    margin-bottom: 50px;
+  }
+
+  @include phone {
+    margin-bottom: 10px;
+  }
+}
+
+.career__firm-text {
+  margin-bottom: 30px;
+  line-height: 25px;
+  opacity: 0.9;
+
+  @include phone {
+    font-size: 14px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
+}
+
+.career__photo {
+  display: block;
+  max-width: 90%;
+  max-height: 500px;
+  margin-left: auto;
+  border-radius: 20px;
+
+  @include tablet {
+    margin: 0 auto;
+  }
+}
+
+.career__contact {
+  background-color: $deep_green;
+  padding: 50px 0;
+
+  @include phone {
+    padding: 25px 0;
+  }
+}
+
+.career__contact-text {
+  max-width: 843px;
+  padding-bottom: 25px;
+  margin-bottom: 170px;
+  border-bottom: $smooth_green solid 2px;
+
+  @include tablet {
+    margin: 0 auto 100px auto;
+    text-align: center;
+  }
+
+  @include phone {
+    margin: 0 auto 10px auto;
+    max-width: 265px;
+    border: none;
+  }
+}
+
+.career__contact-title {
+  margin-bottom: 15px;
+
+  @include phone {
+    font-size: 20px;
+  }
+}
+
+.career__contact-undertitle {
+  font-size: 15px;
+  line-height: 23px;
+
+  @include phone {
+    font-size: 13px;
+    line-height: 20px;
+    max-width: 235px;
+    margin: 0 auto;
+  }
+}
+
+.career__contact-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+
+  @include phone {
+    padding: 0 50px;
+  }
+}
+
+.career__contact-item {
+  margin: 0 10px;
+  padding: 50px 0;
+  max-width: calc(33.33% - 20px);
+  flex: 1 1 calc(33.33% - 20px);
+  text-align: center;
+  border-right: $white solid 2px;
+
+  &:last-child {
+    border-right: none;
+  }
+
+  @include phone {
+    max-width: 100%;
+    flex: 1 1 100%;
+    border-bottom: $white solid 1px;
+    border-right: none;
+    padding: 33px 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.career__contact-link {
+  display: block;
+  color: $white;
+
+  @include hover {
+    transition: $normal;
+    opacity: 0.6;
+  }
+}
+
+.career__contact-icon {
+  font-size: 40px;
+  margin-bottom: 20px;
+
+  @include phone {
+    font-size: 30px;
+  }
+}
+.career__contact-tag {
+  @include phone {
+    font-size: 13px;
+  }
+}

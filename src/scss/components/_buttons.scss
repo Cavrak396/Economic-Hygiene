@@ -1,0 +1,16 @@
+.btn {
+  display: inline-block;
+  color: $white;
+  background-color: $green;
+  border-radius: 20px;
+  padding: 15px 20px;
+
+  @include hover {
+    transition: $normal;
+    background-color: $deep_green;
+  }
+
+  @include phone {
+    font-size: 13px;
+  }
+}

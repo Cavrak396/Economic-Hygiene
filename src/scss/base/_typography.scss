@@ -1,0 +1,31 @@
+body {
+  font-family: $poppins;
+}
+
+.banner__title {
+  font-size: 70px;
+  font-weight: $bold;
+  margin-bottom: 15px;
+
+  @include phone {
+    font-size: 36px;
+    line-height: 40px;
+    max-width: 343px;
+    margin: 0 auto 15px auto;
+  }
+}
+
+.h2 {
+  font-size: 50px;
+  font-weight: $semi;
+
+  @include phone {
+    font-size: 35px;
+    line-height: 35px;
+  }
+}
+
+.h3 {
+  font-size: 30px;
+  font-weight: $bold;
+}

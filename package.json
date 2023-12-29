@@ -1,0 +1,27 @@
+{
+  "name": "economic-hygiene",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cavrak396/Economic-Hygiene.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sass-lint": "^1.4.0",
+    "gulp-consolidate": "^0.1.2",
+    "gulp-iconfont": "^5.0.1",
+    "underscore": "^1.8.3"
+  },
+  "author": "Cavrak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cavrak396/Economic-Hygiene/issues"
+  },
+  "homepage": "https://github.com/Cavrak396/Economic-Hygiene#readme"
+}

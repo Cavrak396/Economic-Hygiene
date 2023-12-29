@@ -1,0 +1,66 @@
+/**
+iconfont Webfont
+*/
+@font-face {
+	font-family: 'iconfont';
+	src: url('../fonts/iconfont.eot?1703801170576');
+	src: url('../fonts/iconfont.eot?#iefix-1703801170576') format('embedded-opentype'),
+		url('../fonts/iconfont.woff2?1703801170576') format('woff2'),
+		url('../fonts/iconfont.woff?1703801170576') format('woff'),
+		url('../fonts/iconfont.ttf?1703801170576') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^='icon-']::before,
+[class*=' icon-']::before {
+	font-family: 'iconfont';
+	display: inline-block;
+	vertical-align: middle;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	speak: none;
+	text-decoration: inherit;
+	font-size: inherit;
+	text-transform: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/*
+Glyphs list
+*/
+
+.icon-calendar::before {
+	content: '\ea01';
+}
+
+.icon-cleaner::before {
+	content: '\ea02';
+}
+
+.icon-clients::before {
+	content: '\ea03';
+}
+
+.icon-facebook::before {
+	content: '\ea04';
+}
+
+.icon-gmail::before {
+	content: '\ea05';
+}
+
+.icon-instagram::before {
+	content: '\ea06';
+}
+
+.icon-linkedin::before {
+	content: '\ea07';
+}
+
+.icon-phone-line::before {
+	content: '\ea08';
+}
