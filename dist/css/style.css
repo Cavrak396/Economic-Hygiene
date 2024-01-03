@@ -177,23 +177,9 @@ body {
 
 @font-face {
   font-family: "Poppins";
-  src: url("../text-fonts/Poppins-ExtraLightItalic.woff2") format("woff2"), url("../text-fonts/Poppins-ExtraLightItalic.woff") format("woff");
-  font-weight: 200;
-  font-style: italic;
-  font-display: swap; }
-
-@font-face {
-  font-family: "Poppins";
   src: url("../text-fonts/Poppins-Light.woff2") format("woff2"), url("../text-fonts/Poppins-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
-  font-display: swap; }
-
-@font-face {
-  font-family: "Poppins";
-  src: url("../text-fonts/Poppins-LightItalic.woff2") format("woff2"), url("../text-fonts/Poppins-LightItalic.woff") format("woff");
-  font-weight: 300;
-  font-style: italic;
   font-display: swap; }
 
 @font-face {
